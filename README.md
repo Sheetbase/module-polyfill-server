@@ -1,4 +1,4 @@
-# Google apps script polyfill
+# GAS Polyfill
 
 Es6 Shim for Google Apps Script. See: https://github.com/paulmillr/es6-shim
 
