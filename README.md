@@ -1,4 +1,4 @@
-# GAS Polyfill
+# Sheetbase Module: polyfill-server
 
 Es6 Shim for Google Apps Script. See: https://github.com/paulmillr/es6-shim
 
