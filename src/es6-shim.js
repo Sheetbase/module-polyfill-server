@@ -1,4 +1,10 @@
-/*<sheetbase>*/var polyfill = this;/*</sheetbase>*/
+/**
+ * Sheetbase Modifications
+ * This file was modified by Sheetbase.
+ * See: <sheetbase>...</sheetbase>
+ * 
+ */
+/*<sheetbase>*/var moduleExports = this;/*</sheetbase>*/
 /*!
  * https://github.com/paulmillr/es6-shim
  * @license es6-shim Copyright 2013-2016 by Paul Miller (http://paulmillr.com)
@@ -182,7 +188,7 @@
     if (typeof self !== 'undefined') { return self; }
     if (typeof window !== 'undefined') { return window; }
     if (typeof global !== 'undefined') { return global; }
-    /*<sheetbase>*/if (typeof polyfill !== 'undefined') { return polyfill; };/*</sheetbase>*/
+    /*<sheetbase>*/if (typeof moduleExports !== 'undefined') { return moduleExports; };/*</sheetbase>*/
     throw new Error('unable to locate global object');
   };
 
