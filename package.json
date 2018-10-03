@@ -1,7 +1,7 @@
 {
 	"name": "@sheetbase/polyfill-server",
 	"type": "module",
-	"version": "0.35.3",
+	"version": "0.35.3-1",
 	"description": "Es6 shim for Google apps script.",
 	"author": "Sheetbase",
 	"homepage": "https://sheetbase.net",
