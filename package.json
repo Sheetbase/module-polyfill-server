@@ -6,6 +6,10 @@
 	"author": "Sheetbase",
 	"homepage": "https://sheetbase.net",
 	"license": "MIT",
+	"scripts": {
+		"build": "sheetbase-app-scripts build",
+		"push": "sheetbase-app-scripts push"
+	},
 	"keywords": [
 		"google-apps-script",
 		"es6",
@@ -21,6 +25,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
+		"@sheetbase/app-scripts": "0.0.2",
 		"@types/google-apps-script": "0.0.28"
 	}
 }
