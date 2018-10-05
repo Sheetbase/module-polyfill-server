@@ -3911,3 +3911,7 @@
 
   return globals;
 }));
+
+/*<sheetbase>*/
+export function PolyfillModule() { return {}; }
+/*</sheetbase>*/

@@ -7,7 +7,7 @@
 	"homepage": "https://sheetbase.net",
 	"license": "MIT",
 	"scripts": {
-		"build": "sheetbase-app-scripts build",
+		"build": "sheetbase-app-scripts build --vendor",
 		"push": "sheetbase-app-scripts push"
 	},
 	"keywords": [
@@ -25,7 +25,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@sheetbase/app-scripts": "0.0.2",
+		"@sheetbase/app-scripts": "file:../../app-scripts/dist/sheetbase-app-scripts-0.0.3.tgz",
 		"@types/google-apps-script": "0.0.28"
 	}
 }
