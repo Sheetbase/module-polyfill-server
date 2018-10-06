@@ -3913,5 +3913,6 @@
 }));
 
 /*<sheetbase>*/
-export function PolyfillModule() { return {}; }
+function PolyfillModule() { return  moduleExports || {}; }
+exports.PolyfillModule = PolyfillModule;
 /*</sheetbase>*/
