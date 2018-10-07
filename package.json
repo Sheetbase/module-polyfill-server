@@ -23,10 +23,9 @@
 	"bugs": {
 		"url": "https://github.com/sheetbase/module-polyfill-server/issues"
 	},
-	"dependencies": {
-		"@sheetbase/app-scripts": "0.0.4"
-	},
+	"dependencies": {},
 	"devDependencies": {
+		"@sheetbase/app-scripts": "0.0.5",
 		"@types/google-apps-script": "0.0.28"
 	}
 }
