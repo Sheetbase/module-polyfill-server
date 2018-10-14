@@ -5,7 +5,7 @@ var module = module || { exports: exports };
  * Name: @sheetbase/polyfill-server
  * Export name: Polyfill
  * Description: Es6 shim for Google apps script.
- * Version: 0.35.3-3
+ * Version: 0.35.3-4
  * Author: Paul Miller
  * Homepage: https://github.com/paulmillr/es6-shim
  * License: MIT
@@ -3930,6 +3930,7 @@ var module = module || { exports: exports };
 function PolyfillModule() { return  moduleExports || {}; }
 exports.PolyfillModule = PolyfillModule;
 /*</sheetbase>*/
-// add to the global namespace
-var proccess = proccess || this;
-proccess['Polyfill'] = PolyfillModule();
+// add 'Polyfill' to the global namespace
+(function (process) {
+    process['Polyfill'] = PolyfillModule();
+})(this);

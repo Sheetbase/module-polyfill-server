@@ -1,0 +1,1 @@
+export { PolyfillModule, Polyfill } from './src';
